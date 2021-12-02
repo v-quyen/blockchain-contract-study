@@ -38,7 +38,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"GetMessage\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"mess\",\"type\":\"string\"}],\"name\":\"SetMessage\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"mess\",\"type\":\"string\"}],\"name\":\"contructor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/HelloWorld.sol\":{\"keccak256\":\"0x2ab8e3a15f528cd756518935119661cdc02f9274d5f03dd57b34d7e85ccfdb8c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://cee0653012cb807e4f41b2bcd7c3993aef477bfa4d8a541186cf7557ec2da225\",\"dweb:/ipfs/QmPeiyBeojXD5GWLeHx6MmcyxqZrcEghwj2w29nXwPRCFT\"]}},\"version\":1}",
@@ -3415,9 +3416,17 @@
     "name": "solc",
     "version": "0.8.10+commit.fc410830.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x9dF87293d11DD9323329dDDDE8c11D5d33dd8Cb8",
+      "transactionHash": "0x0677d6f3b1fb2b67053e467553a963020d431666b5d1f8d29910f93d3b1950b6"
+    }
+  },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-12-01T09:29:30.552Z",
+  "updatedAt": "2021-12-02T03:41:49.461Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
